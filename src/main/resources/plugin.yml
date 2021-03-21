@@ -1,0 +1,14 @@
+name: ${project.name}
+author: $pluginAuthor
+version: $pluginVersion
+api-version: 1.16
+main: $pluginMain
+
+commands:
+  home:
+    description: This is home command
+    usage: /home
+
+  sethome:
+    description: This is sethome command
+    usage: /sethome
